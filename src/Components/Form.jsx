@@ -12,9 +12,10 @@ class Form extends React.Component {
           onChange={handleChange}
           type="text"
           placeholder="enter new task ..."
-          className="p-1 input-value rounded-3"
+          className="enter-text p-1 input-value rounded-3"
           style={{
             border: searchValid ? "2px solid red" : "2px solid black",
+            outline: "none",
           }}
         />
         <input
